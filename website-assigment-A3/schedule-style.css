@@ -1,0 +1,152 @@
+#container{
+   margin-left: auto;
+   margin-right: auto;
+   float: center;
+   height: 800px;
+}
+
+.main{
+   border: 2px solid black;
+   padding: 25px;
+   background-image: url(schedule-background.jpg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+   width: auto;
+   height: 100%;
+}
+
+.start{
+  font-family: algerian;
+  font-weight: bold;
+  border: 2px;
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 685px;
+  text-align: center;
+  margin:60 0 0 600px;
+  background-color: #7DF9FF
+}
+
+.days-of-week li{
+  font-size: 40px;
+  border-radius: 10px;
+  border: 2px solid white;
+  height: 110px;
+  width: 230px;
+  margin: 20px 0 10px 530px;
+  background-color: #90EE90;
+  text-align: center;
+}
+
+.days-of-week ul{
+  list-style-type: none;
+  margin: 0;
+}
+
+.time li{
+  font-size: 40px;
+  border-radius: 10px;
+  border: 2px solid white;
+  height: 110px;
+  width: 230px;
+  margin: 10px 900px 10px 800px;
+  background-color: #00FFFF;
+  text-align: center;
+  float: right;
+}
+
+.time ul{
+  list-style-type: none;
+}
+
+.date li{
+  font-size: 40px;
+  border-radius: 10px;
+  border: 2px solid white;
+  height: 110px;
+  width: 230px;
+  background-color: #00FFFF;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.date ul{
+  list-style-type: none;
+}
+
+.navigation-bar {
+    background-image: url(background-nav.jpg);
+	background-size: 100%;
+	background-repeat: none;
+    text-align: rigth;
+    padding: 18px 14px;
+    width: auto;
+    height: 60px;
+	font-weight: bold;
+}
+
+.navigation-bar a {
+  float: right;
+  color: #454545;
+  text-align: center;
+  font-weight: bold;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.logo a{
+	float: left;
+    vertical-align: top;
+    width: 200px;
+    height: 40x;
+    margin-right: 20px;
+	position: absolute;
+	top: -7px;
+	Cursor:select !important;
+	Text-Decoration: None !important; 
+}
+
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.footer{
+bottom: 0;
+clear: both;
+padding: 10px;
+background-color: #fdad5c;
+color: white;
+text-align: right;
+width: auto;
+height: 60px;
+}
+
+.footer-logos {
+float: bottom;
+padding: 20px;
+position: absolute;
+bottom: -100px;
+right: 800px;
+}
+
+.footer-logos img{
+display: inline-block;
+margin-right: 20px;
+}
+
+.time {
+  position: absolute;
+  padding: 20px;
+  top: 300px;
+}
+
+.date {
+  position: absolute;
+  top: 332px;
+  right: 500px;
+}

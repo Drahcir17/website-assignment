@@ -1,0 +1,41 @@
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css " href="log-in-style.css" />
+	</head>
+    <body>
+	    <div id= "container">
+	    <div class="background">
+		<h1>Log in to an existing account</h1>
+		    <label for="email"></label>
+            <input type="text" placeholder="Email or phone" name="email" id="email" required>
+			<label for="password"></label>
+            <input type="text" placeholder="Password" name="password" id="password" required>
+			<p>Forgot password?</p>
+		    <button type="submit" class="registerbtn">Log in</button>
+		</div>
+		<div id="background">
+	        <form action="/action_page.php">
+                <div class="container">
+                <h1>Register</h1>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+				
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+
+                <button type="submit" class="registerbtn">Register</button>
+                </div>
+  
+                <div class="container-signin">
+                <p>Already have an account? <a href="#">Sign in</a>.</p>
+                </div>
+            </form>
+		</div>
+	</body>
+</html>

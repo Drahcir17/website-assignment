@@ -1,0 +1,153 @@
+.navigation-bar {
+    background-image: url(background-nav.jpg);
+	background-size: 100%;
+	background-repeat: none;
+    text-align: rigth;
+    padding: 18px 14px;
+    width: auto;
+    height: 60px;
+	font-weight: bold;
+}
+
+.navigation-bar a {
+  float: right;
+  color: #454545;
+  text-align: center;
+  font-weight: bold;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.logo a  {
+	float: left;
+    vertical-align: top;
+    width: 200px;
+    height: 40x;
+    margin-right: 20px;
+	position: absolute;
+	top: -7px;
+}
+
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;
+    line-height: 80px;
+}
+
+#container{
+   margin-left: auto;
+   margin-right: auto;
+   float: center;
+   height: 800px;
+}
+
+.background{
+   border: 2px solid black;
+   padding: 25px;
+   background-repeat: none;
+   width: auto;
+   height: 100%;
+}
+
+.footer{
+bottom: 0;
+clear: both;
+padding: 10px;
+background-color: #fdad5c;
+color: white;
+text-align: right;
+width: auto;
+height: 60px;
+}
+
+.footer-logos {
+float: bottom;
+padding: 20px;
+position: absolute;
+bottom: -80px;
+right: 800px;
+}
+
+.footer-logos img{
+display: inline-block;
+margin-right: 20px;
+}
+
+.Join {
+margin: 10px;
+padding: 10px;
+font-family: Calibri (Body);
+position: absolute;
+left: 600px;
+}
+
+.Join  h1{
+  font-weight: bold;
+  font-size: 90px;
+  font-family: Calibri;
+}
+
+.Join p{
+  font-size: 20px;
+  font-family: Calibri;
+  position: absolute;
+  left: 200px;
+}
+
+.rectangle  {
+  background-color: #00BFFF;
+  border: 2px;
+  border-radius: 12px;
+  padding: 5px;
+  float: left;
+  width: 390px;
+  height: 90px;
+  z-index: -1;
+  border: 5px solid black;
+  margin: 600 0 0 687px;
+}
+
+.button{
+  margin: 0 0 0 0px;
+  text-align: center;
+}
+
+.button  a{
+  color: black;
+  font-family: algerian;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  float: center;
+  margin: auto;
+}
+
+.bottom-pic{
+  height: 190px;
+  width: 640px;
+  float: bottom-left;
+  position: absolute;
+  right: 530px;
+  bottom: 440px
+}
+
+.text-in-shape a{
+  border: 2px;
+  border-radius: 12px;
+  padding: 5px;
+  float: left;
+  width: 350px;
+  height: 35px;
+  z-index: -1;
+  border: 5px solid black;
+  right: -34px;
+  top: 260px;
+  margin: 35  0 30px;
+}
+
+.text-in-shape h3{
+  margin: auto;
+}
